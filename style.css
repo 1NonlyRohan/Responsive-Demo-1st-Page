@@ -1,0 +1,107 @@
+/* General Styles */
+*{
+    text-decoration: none;
+    list-style: none;
+    outline: 0;
+    border: 0;
+}
+
+body{
+    font-family: josefin sans;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+}
+
+nav ul li a:hover{
+    text-decoration: underline;
+    color: grey;
+    transition: 0.3s ease;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+.btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 768px) {
+    header {
+        text-align: center;
+        color: #007bff;
+    }
+
+    nav ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 320px) {
+    header {
+        text-align: center;
+        color: crimson;
+    }
+
+    nav ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 600px) {
+    .btn {
+        display: block;
+        margin: 10px auto;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 24px;
+        color: aqua;
+    }
+
+    h2 {
+        font-size: 18px;
+        color: blue;
+    }
+
+    .btn {
+        font-size: 14px;
+        color: brown;
+    }
+}
