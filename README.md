@@ -1,1 +1,0 @@
-# Responsive-Demo-1st-Page
